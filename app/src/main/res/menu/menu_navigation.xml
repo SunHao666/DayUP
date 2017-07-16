@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/ng_1"
+            android:icon="@drawable/menu1"
+            android:title="menu1"/>
+        <item
+            android:id="@+id/ng_2"
+            android:icon="@drawable/menu2"
+            android:title="menu2"/>
+        <item
+            android:id="@+id/ng_3"
+            android:icon="@drawable/menu3"
+            android:title="menu3"/>
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/group2"
+        >
+        <item
+            android:id="@+id/ng_4"
+            android:icon="@drawable/menu1"
+            android:title="menu4"/>
+        <item
+            android:id="@+id/ng_5"
+            android:icon="@drawable/menu2"
+            android:title="menu5"/>
+        <item
+            android:id="@+id/ng_6"
+            android:icon="@drawable/menu3"
+            android:title="menu6"/>
+    </group>
+</menu>

@@ -13,4 +13,16 @@
         android:layout_height="wrap_content"
         android:onClick="actionbar"
         android:text="ActionBar" />
+    <Button
+    android:id="@+id/btn_drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="DrawerLayout"
+    android:text="DrawerLayout" />
+    <Button
+        android:id="@+id/btn_viewpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ViewPaper"
+        android:text="ViewPaper" />
 </LinearLayout>

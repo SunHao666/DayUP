@@ -27,6 +27,26 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Base"
             />
+        <activity
+            android:name=".android_d2.DrawerLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base"
+            />
+        <activity
+            android:name=".android_d2.MainDrawerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base"
+            />
+        <activity
+            android:name=".android_d3.MainViewPaperActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base"
+            />
+        <activity
+            android:name=".android_d3.WelcomeActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base"
+            />
     </application>
 
 </manifest>

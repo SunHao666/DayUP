@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.sunh.dayup.android_d1.ActionBarActivity;
+import com.sunh.dayup.android_d2.DrawerLayoutActivity;
+import com.sunh.dayup.android_d2.MainDrawerActivity;
+import com.sunh.dayup.android_d3.MainViewPaperActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,5 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void actionbar(View view){
         startActivity(new Intent(getApplicationContext(), ActionBarActivity.class));
+    }
+
+    public void DrawerLayout(View view){
+        startActivity(new Intent(getApplicationContext(), MainDrawerActivity.class));
+    }
+    public void ViewPaper(View view){
+        startActivity(new Intent(getApplicationContext(), MainViewPaperActivity.class));
     }
 }

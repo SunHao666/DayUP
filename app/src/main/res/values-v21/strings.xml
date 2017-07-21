@@ -2,4 +2,6 @@
 <resources>
     <string name="open" >OPEN</string>
     <string name="close" > CLOSE</string>
+    <string name="onboarding_finish_button_description" >完成</string>
+    <string name="onboarding_next_button_description" >next</string>
 </resources>

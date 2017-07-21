@@ -2,4 +2,9 @@
     <string name="app_name">DayUP</string>
     <string name="open" />
     <string name="close" />
+    <string name="title_activity_tab_welcome">TabWelcomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="onboarding_finish_button_description" />
+    <string name="onboarding_next_button_description" />
 </resources>

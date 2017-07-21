@@ -18,35 +18,45 @@
         </activity>
         <activity
             android:name=".android_d1.ActionBarActivity"
-            android:screenOrientation="portrait"
-            android:logo="@drawable/logo"
             android:label="ActionBar"
-            />
+            android:logo="@drawable/logo"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".android_d1.ToolBarActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Base"
-            />
+            android:theme="@style/AppTheme.Base" />
         <activity
             android:name=".android_d2.DrawerLayoutActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Base"
-            />
+            android:theme="@style/AppTheme.Base" />
         <activity
             android:name=".android_d2.MainDrawerActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Base"
-            />
+            android:theme="@style/AppTheme.Base" />
         <activity
             android:name=".android_d3.MainViewPaperActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Base"
-            />
+            android:theme="@style/AppTheme.Base" />
         <activity
             android:name=".android_d3.WelcomeActivity1"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Base"
-            />
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name=".android_d3.FabActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name=".android_d4.TabLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name=".android_d4.CoordinatorLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name=".android_d3.TabWelcomeActivity"
+            android:label="@string/title_activity_tab_welcome"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

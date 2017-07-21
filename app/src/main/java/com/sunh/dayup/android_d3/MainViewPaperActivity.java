@@ -39,6 +39,7 @@ public class MainViewPaperActivity extends AppCompatActivity implements View.OnC
                 startActivity(new Intent(getApplicationContext(),WelcomeActivity1.class));
                 break;
             case R.id.button2:
+                startActivity(new Intent(getApplicationContext(),TabWelcomeActivity.class));
                 break;
         }
     }

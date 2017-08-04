@@ -53,12 +53,40 @@
         android:theme="@style/MyButtonTheme" />
 
     <Button
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:onClick="CoordinatorLayout"
+    android:text="CoordinatorLayout"
+    android:textColor="@color/colorAccent"
+    android:theme="@style/MyButtonTheme" />
+
+    <Button
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:onClick="CoordinatorLayout"
-        android:text="CoordinatorLayout"
+        android:onClick="mvp"
+        android:text="mvp"
+        android:textColor="@color/colorAccent"
+        android:theme="@style/MyButtonTheme" />
+    <Button
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:onClick="mvp2"
+    android:text="mvp2"
+    android:textColor="@color/colorAccent"
+    android:theme="@style/MyButtonTheme" />
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:onClick="retrofit"
+        android:text="retrofit"
         android:textColor="@color/colorAccent"
         android:theme="@style/MyButtonTheme" />
     <android.support.design.widget.FloatingActionButton

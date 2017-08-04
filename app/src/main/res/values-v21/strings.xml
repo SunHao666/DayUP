@@ -4,4 +4,9 @@
     <string name="close" > CLOSE</string>
     <string name="onboarding_finish_button_description" >完成</string>
     <string name="onboarding_next_button_description" >next</string>
+    <string name="permission_rationale">权限</string>
+    <string name="error_invalid_password" />
+    <string name="error_field_required" />
+    <string name="error_invalid_email" />
+    <string name="error_incorrect_password" />
 </resources>

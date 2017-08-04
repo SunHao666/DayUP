@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sunh.dayup">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -56,7 +61,25 @@
         <activity
             android:name=".android_d3.TabWelcomeActivity"
             android:label="@string/title_activity_tab_welcome"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".android_d5.MvpDemoActivity"
+            android:label="@string/title_activity_tab_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".android_d5.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog"
+            ></activity>
+
+        <activity
+            android:name=".android_d5.mvp.activity.MVPLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".android_d6.RetrofitActivity"
+            android:screenOrientation="portrait"
+            />
     </application>
 
 </manifest>

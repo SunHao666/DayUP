@@ -12,6 +12,10 @@ import com.sunh.dayup.android_d3.FabActivity;
 import com.sunh.dayup.android_d3.MainViewPaperActivity;
 import com.sunh.dayup.android_d4.CoordinatorLayoutActivity;
 import com.sunh.dayup.android_d4.TabLayoutActivity;
+import com.sunh.dayup.android_d5.LoginActivity;
+import com.sunh.dayup.android_d5.MvpDemoActivity;
+import com.sunh.dayup.android_d5.mvp.activity.MVPLoginActivity;
+import com.sunh.dayup.android_d6.RetrofitActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,5 +44,15 @@ public class MainActivity extends AppCompatActivity {
     }
     public void CoordinatorLayout(View view){
         startActivity(new Intent(getApplicationContext(), CoordinatorLayoutActivity.class));
+    }
+
+    public void mvp(View view){
+        startActivity(new Intent(getApplicationContext(), MvpDemoActivity.class));
+    }
+    public void mvp2(View view){
+        startActivity(new Intent(getApplicationContext(), MVPLoginActivity.class));
+    }
+    public void retrofit(View view){
+        startActivity(new Intent(getApplicationContext(), RetrofitActivity.class));
     }
 }
